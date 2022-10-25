@@ -4,6 +4,7 @@ txt = open(filename)
 
 puts "Here's your file #{filename}:"
 print txt.read
+puts "\n"
 
 print "Type the filename again: "
 file_again = $stdin.gets.chomp
